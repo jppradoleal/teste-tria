@@ -1,0 +1,9 @@
+<div>
+  <h1>{{version}}</h1>
+  <ul>
+    <li *ngFor="for let comic of comics">
+      <app-card [title]="comic.title" [body]="comic.body" [price]="5" [imageUrl]="https://picsum.photos/seed/300">
+      </app-card>
+    </li>
+  </ul>
+</div>
